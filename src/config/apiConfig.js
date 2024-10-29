@@ -1,6 +1,6 @@
 // src/config/apiConfig.js
 export const API_CONFIG = {
-    BASE_URL: 'http://localhost:7900',
+    BASE_URL: process.env.REACT_APP_API_BASE_URL,
     ENDPOINTS: {
       LOGIN: '/auth/login',
     },
